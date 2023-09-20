@@ -1,0 +1,4 @@
+rootProject.name = 'rest-assured-web-flux-temp'
+include 'rest-assured-web-flux-temp-web'
+include 'rest-assured-web-flux-temp-wiremock'
+include 'rest-assured-web-flux-temp-acceptance-tests'

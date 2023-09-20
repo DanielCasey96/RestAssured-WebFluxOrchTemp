@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation("org.wiremock:wiremock:3.0.0")
+    testImplementation "org.wiremock:wiremock-standalone:3.0.0"
+}

@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/rest-assured-template/service/data/single/([0-9]*)"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {"basicValue": "response1"},
+    "headers": {
+      "Content-Type": "application/json",
+      "Correlation-Id": "12dsfs-213g"
+    }
+  }
+}
