@@ -1,4 +1,4 @@
-package restassuredtemplate.controllers;
+package restassuredwebfluxtemp.controllers;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import restassuredtemplate.models.MultipleDataResponses;
-import restassuredtemplate.models.SingleDataResponse;
-import restassuredtemplate.services.MockedProvider;
+import restassuredwebfluxtemp.models.MultipleDataResponses;
+import restassuredwebfluxtemp.models.SingleDataResponse;
+import restassuredwebfluxtemp.services.MockedProvider;
 
 @RestController
 @Validated

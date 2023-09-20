@@ -1,4 +1,4 @@
-package restassuredtemplate.common;
+package restassuredwebfluxtemp.common;
 
 public class Constants {
 

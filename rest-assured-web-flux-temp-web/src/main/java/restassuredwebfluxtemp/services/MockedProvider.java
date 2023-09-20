@@ -1,4 +1,4 @@
-package restassuredtemplate.services;
+package restassuredwebfluxtemp.services;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,10 +6,10 @@ import org.springframework.http.MediaType;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import restassuredtemplate.models.MultipleDataResponses;
-import restassuredtemplate.models.SingleDataResponse;
+import restassuredwebfluxtemp.models.MultipleDataResponses;
+import restassuredwebfluxtemp.models.SingleDataResponse;
 
-import static restassuredtemplate.common.Constants.CORRELATION_ID_HEADER;
+import static restassuredwebfluxtemp.common.Constants.CORRELATION_ID_HEADER;
 
 public class MockedProvider {
 

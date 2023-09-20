@@ -1,4 +1,4 @@
-package restassuredtemplate.models;
+package restassuredwebfluxtemp.models;
 
 import java.util.List;
 

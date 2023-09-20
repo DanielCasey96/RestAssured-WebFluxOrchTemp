@@ -1,4 +1,4 @@
-package restassuredtemplate.config;
+package restassuredwebfluxtemp.config;
 
 import io.netty.channel.ChannelOption;
 import io.netty.handler.timeout.ReadTimeoutHandler;
@@ -10,7 +10,7 @@ import org.springframework.http.client.reactive.ReactorClientHttpConnector;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.netty.http.client.HttpClient;
 import reactor.netty.tcp.TcpClient;
-import restassuredtemplate.services.MockedProvider;
+import restassuredwebfluxtemp.services.MockedProvider;
 
 @Configuration
 public class ProviderConfig {
