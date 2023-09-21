@@ -9,11 +9,13 @@ import org.junit.jupiter.api.TestInstance
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 open class ApiUtil {
 
-    private val wireMockServer = WireMockServer(WireMockConfiguration.options().port(9090))
-
+    companion object {
+        val wireMockServer = WireMockServer(WireMockConfiguration.options().port(9090))
+    }
 
     @BeforeAll
     fun startWiremock() {
+        println("WIREMOCK SERVER HAS STARTED")
         wireMockServer.start()
     }
 
